@@ -39,4 +39,4 @@ Make a new line, and paste:
 Press ESC on your keyboard.
 Press `:` and type `wq`.
 
-Your condiguration should be saved and runn weekly.
+Your condiguration should be saved and run weekly.
