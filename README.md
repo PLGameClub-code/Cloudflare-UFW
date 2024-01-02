@@ -19,9 +19,9 @@ The script also runs the `ufw status` command with grep filters to show the user
 The script is very easy and fast to install (less than 5 minutes).
 ### Installing the script itself
 Download the script: [ufw_cloudflare.sh](./ufw_cloudflare.sh) [RAW file](https://raw.githubusercontent.com/PLGameClub-code/Cloudflare-UFW/main/ufw_cloudflare.sh)
-Put it in a memorable place (I like using /opt/scripts/ for all my scripts).
+Put it in a memorable place (I like using `/opt/scripts/` for all my scripts).
 
-Run "chmod a+x /path/to/the/script/ufw_cloudflare.sh" to allow the execution of the script.
+Run `chmod a+x /path/to/the/script/ufw_cloudflare.sh` to allow the execution of the script.
 
 > Now you can execute the script manually with `/path/to/the/script/ufw_cloudflare.sh`
 ### Making the script run weekly
