@@ -24,6 +24,16 @@ Put it in a memorable place (I like using `/opt/scripts/` for all my scripts).
 Run `chmod a+x /path/to/the/script/ufw_cloudflare.sh` to allow the execution of the script.
 
 > Now you can execute the script manually with `/path/to/the/script/ufw_cloudflare.sh`
+
+### Configure the ports (optional)
+If you want ports other than 80 or 443 exposed to cloudflare, follow the steps:
+
+Run `nano /path/to/the/script/ufw_cloudflare.sh` to open the script in a text editor.
+Go to the 3rd line.
+Edit the ports after `PORTS=` to your needs.
+Use CTRL + s to save and CTRL + x to exit.
+
+Run the script again, to apply the changes to the firewall.
 ### Making the script run weekly
 To make it run weekly, use crontab.
 
