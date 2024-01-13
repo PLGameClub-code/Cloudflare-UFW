@@ -19,6 +19,7 @@ The script also runs the `ufw status` command with grep filters to show the user
 The script is very easy and fast to install (less than 5 minutes).
 ### Installing the script itself
 Download the script: [ufw_cloudflare.sh](./ufw_cloudflare.sh) [RAW file](https://raw.githubusercontent.com/PLGameClub-code/Cloudflare-UFW/main/ufw_cloudflare.sh)
+> wget https://raw.githubusercontent.com/PLGameClub-code/Cloudflare-UFW/main/ufw_cloudflare.sh
 Put it in a memorable place (I like using `/opt/scripts/` for all my scripts).
 
 Run `chmod a+x /path/to/the/script/ufw_cloudflare.sh` to allow the execution of the script.
@@ -26,7 +27,7 @@ Run `chmod a+x /path/to/the/script/ufw_cloudflare.sh` to allow the execution of 
 > Now you can execute the script manually with `/path/to/the/script/ufw_cloudflare.sh`
 
 ### Configure the ports (optional)
-If you want ports other than 80 or 443 exposed to cloudflare, follow the steps:
+If you want ports other than 80 and 443 exposed to cloudflare, follow the steps:
 
 Run `nano /path/to/the/script/ufw_cloudflare.sh` to open the script in a text editor.
 Go to the 3rd line.
