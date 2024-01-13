@@ -43,7 +43,7 @@ Go to the end of the file.
 Press INSERT or i on your keyboard.
 Make a new line, and paste:
 ```
-0 0 * * 1 /path/to/the/script/ufw_cloudflare.sh > /dev/null 2>&1
+0 0 * * 1 /path/to/the/script/ufw_cloudflare.sh > /var/log/cloudflare-ufw.log 2>&1
 ```
 
 Press ESC on your keyboard.
