@@ -52,7 +52,7 @@ Press `:` and type `wq`.
 Your condiguration should be saved and run weekly.
 
 
-# Special thanks to [Paul-Reed](https://github.com/Paul-Reed)
-He made the [original code](https://github.com/Paul-Reed/cloudflare-ufw) to connect to cloudflare, get the addresses and apply them.
+# Special thanks
+[Paul-Reed](https://github.com/Paul-Reed) made the [original code](https://github.com/Paul-Reed/cloudflare-ufw) to connect to cloudflare, get the addresses and apply them.
 
 I just added the delete old rules, the text output and the crontab script to log the output.
